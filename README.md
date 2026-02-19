@@ -63,7 +63,9 @@ mlflow ui --backend-store-uri mlruns
 ## EDA
 - Notebook: `notebooks/01_eda.ipynb`
 
+
 ## Notes
 - Default sampling limits to 5,000 users for manageable local runs.
+- Metrics shown are from the sampled subset; training on the full dataset may improve ranking scores but requires more compute.
 - Change sampling and model config in `src/recsys/config.py`.
 - Use `data/processed/summary.json` to verify split sizes.
