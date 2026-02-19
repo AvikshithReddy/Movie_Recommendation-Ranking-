@@ -1,0 +1,19 @@
+# Data
+movielens_data/
+movie_lens_data/
+data/processed/
+
+# Models & artifacts
+models/
+mlruns/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
